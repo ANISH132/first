@@ -258,7 +258,7 @@ function showTypewriterThenCelebrate(customText){
   modal.appendChild(container); backdrop.appendChild(modal); modalRoot.appendChild(backdrop); currentModal = backdrop;
 
   const totalTypeDuration = 2000;
-  const totalVisible = 9000;
+  const totalVisible = 4000;
   const chars = Array.from(text);
   const interval = Math.max(4, Math.floor(totalTypeDuration / chars.length));
   let i = 0;
@@ -363,3 +363,4 @@ document.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') closeModal();
 </script>
 </body>
 </html>
+
